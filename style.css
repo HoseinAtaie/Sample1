@@ -1,0 +1,1270 @@
+.web-shadowlight {
+    box-shadow: 0 5px 5px rgba(121, 119, 119, 0.993);
+}
+
+.web-shadowdark {
+    box-shadow: 0 5px 5px rgba(14, 13, 13, 0.993);
+}
+
+.fade-scroll {
+    overflow-x: hidden;
+}
+
+.web-header-section {
+    margin-top: 0;
+    background: rgb(133, 2, 2);
+    width: 100%;
+    height: 130px;
+}
+
+.web-header-fixed {
+    background: rgb(133, 2, 2);
+    position: fixed;
+    z-index: 100;
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    animation-duration: 1s;
+    animation-fill-mode: backwards;
+    box-shadow: 0 5px 5px rgba(121, 119, 119, 0.993);
+}
+
+.web-header-section .navbar-brand a h3 {
+    color: white;
+    font-family: "lato";
+    font-weight: 500;
+}
+
+.web-header-section .navbar-brand a:hover {
+    text-decoration: none;
+}
+
+#first-line {
+    float: right;
+    margin-top: 2px;
+    margin-right: 60px;
+}
+
+#first-line li {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+#first-line li a {
+    color: white;
+    font-size: 15px;
+    font-family: "lato";
+    font-weight: 400;
+}
+
+#first-line li:hover {
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: .5s;
+}
+
+#first-line li a:hover {
+    color: white;
+    font-family: "Rubik";
+    font-weight: 500;
+    text-decoration: none;
+    transition: .5s;
+}
+
+#second-line {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#second-line li {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#second-line li a {
+    color: white;
+    font-size: 22px;
+    font-family: "Rubik";
+    font-weight: 500;
+}
+
+#second-line li:hover {
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: .5s;
+}
+
+#second-line li a:hover {
+    color: white;
+    font-family: "lato";
+    font-weight: 400;
+    text-decoration: underline;
+    transition: .5s;
+}
+
+.web-slider-section .carousel-inner .carousel-item img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.web-slider-section .carousel-inner .carousel-caption a {
+    font-family: "Rubik";
+    font-size: 45px;
+    color: white;
+    font-weight: 500;
+}
+
+.web-slider-section .carousel-inner .carousel-caption a:hover {
+    text-decoration: none;
+    color: white;
+    font-family: "Rubik";
+    font-weight: 500;
+}
+
+.web-news-section {
+    padding-top: 100px;
+}
+
+.web-news-section .web-news-header p {
+    font-family: "Rubik";
+    font-size: 60px;
+    color: black;
+    font-weight: 700;
+}
+
+.web-news-section .web-news-header h2 {
+    font-family: "lato";
+    color: black;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.web-news-section .web-news-content .card {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+    border-radius: 0;
+}
+
+.web-news-section .web-news-content .card img {
+    object-fit: cover;
+}
+
+#first-overlayimg {
+    margin-top: 180px;
+}
+
+#second-overlayimg {
+    margin-top: 180px;
+}
+
+.web-news-section .web-news-content h5 {
+    color: white;
+    font-family: "Rubik";
+    font-weight: 500;
+}
+
+.web-news-section .web-news-content .card .card-body h6 {
+    color: rgba(204, 43, 3, 0.993);
+    font-family: "Rubik";
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.web-news-section .web-news-content .card a {
+    font-family: "Rubik";
+    color: black;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.web-news-section .web-news-content .card a:hover {
+    color: rgb(3, 137, 214);
+    text-decoration: none;
+    transition: .2s;
+}
+
+.web-news-section .web-news-content .web-newsmore-button a {
+    margin-top: 30px;
+    width: 450px;
+    height: 55px;
+    border-radius: 0;
+    font-family: "Rubik";
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.web-news-section .web-news-content .web-newsmore-button a:hover {
+    box-shadow: 0 5px 5px rgba(121, 119, 119, 0.993);
+    transition: .2s;
+}
+
+.web-events-section {
+    background: rgb(59, 47, 47);
+}
+
+.web-events-section .web-events-header p {
+    padding-top: 70px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    color: white;
+    font-family: "Rubik";
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.web-events-section .web-events-header h2 {
+    font-family: "lato";
+    color: white;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+.web-events-section .web-events-content .card {
+    border-radius: 0;
+    width: 100%;
+    height: 450px;
+    margin-bottom: 30px;
+}
+
+.web-events-section .web-events-content .card img {
+    width: 100%;
+    height: 250px;
+}
+
+.web-events-section .web-events-content .card h6 {
+    color: rgba(204, 43, 3, 0.993);
+    font-family: "Rubik";
+    font-weight: 700;
+}
+
+.web-events-section .web-events-content .card .card-body a {
+    font-family: "Rubik";
+    font-weight: 500;
+    color: black;
+}
+
+.web-events-section .web-events-content .card .card-body a:hover {
+    color: rgb(3, 137, 214);
+    text-decoration: none;
+    transition: .2s;
+}
+
+.web-events-section .web-events-content .btn-danger {
+    margin-top: 30px;
+    width: 450px;
+    height: 55px;
+    border-radius: 0;
+    font-family: "Rubik";
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+
+.web-events-section .web-events-content .btn-danger:hover {
+    transition: .2s;
+    box-shadow: 0 5px 5px rgba(14, 13, 13, 0.993);
+}
+
+.web-academics-section .web-academics-header {
+    padding-top: 100px;
+}
+
+.web-academics-section .web-academics-header p {
+    font-family: "Rubik";
+    font-size: 60px;
+    color: black;
+    font-weight: 700;
+}
+
+.web-academics-section .web-academics-header h2 {
+    font-family: "lato";
+    color: black;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+.web-academics-section .web-academics-content h4 {
+    color: black;
+    font-family: "Rubik";
+    margin-top: 10px;
+}
+
+.web-academics-section .web-academics-content .web-academics-card {
+    margin-bottom: 50px;
+}
+
+.web-academics-section .web-academics-content p {
+    color: black;
+    font-family: "lato";
+    font-size: 17px;
+}
+
+.web-academics-section .web-academics-content .web-academics-card a {
+    color: rgb(3, 137, 214);
+    font-family: "Rubik";
+    font-weight: 500;
+}
+
+.web-academics-section .web-academics-tabs h4 {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-family: "Rubik";
+    font-weight: 500;
+    color: black;
+}
+
+.web-academics-section .web-academics-tabs .nav-tabs {
+    border: 0;
+}
+
+.web-academics-section .web-academics-tabs li a {
+    border-radius: 5px;
+}
+
+.web-academics-section .web-academics-tabs li a h5 {
+    font-family: "lato";
+    font-weight: 500;
+    color: rgb(3, 137, 214);
+}
+
+.web-academics-section .web-academics-tabs .nav-tabs li a:hover {
+    background: rgb(189, 2, 2);
+    transition: .5s;
+}
+
+.web-academics-section .web-academics-tabs .nav-tabs li a h5:hover {
+    color: white;
+    transition: .5s;
+}
+
+.web-academics-section .web-academics-tabs .nav-tabs li a.active {
+    background: rgb(133, 2, 2);
+}
+
+.web-academics-section .web-academics-tabs .nav-tabs li a.active h5 {
+    color: white;
+}
+
+.web-academics-section .web-moreacademics-button a {
+    margin-top: 70px;
+    width: 450px;
+    height: 55px;
+    border-radius: 0;
+    font-family: "Rubik";
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+
+.web-academics-section .web-moreacademics-button a:hover {
+    box-shadow: 0 5px 5px rgba(121, 119, 119, 0.993);
+    transition: .2s;
+}
+
+.web-research-section {
+    background: rgb(247, 242, 234);
+}
+
+.web-research-section .web-research-header p {
+    padding-top: 100px;
+    font-family: "Rubik";
+    font-size: 60px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.web-research-section .web-research-header h2 {
+    font-family: "lato";
+    color: black;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+
+.web-research-section .web-research-counter .counter-item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.web-research-section .web-research-counter .counter-item span {
+    display: block;
+    font-family: "Rubik";
+    font-weight: 500;
+    color: black;
+    font-size: 25px;
+}
+
+.web-research-section .web-research-content h2 {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    color: black;
+    font-family: "Rubik";
+    font-weight: 400;
+}
+
+.web-research-section .web-research-content .card {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+    border-radius: 0;
+}
+
+.web-research-section .web-research-content .card h6 {
+    color: rgba(204, 43, 3, 0.993);
+    margin-bottom: 10px;
+    font-family: "Rubik";
+    font-weight: 700;
+}
+
+.web-research-section .web-research-content .card .card-body a {
+    color: black;
+    font-family: "Rubik";
+    font-weight: 500;
+}
+
+.web-research-section .web-research-content .card .card-body a:hover {
+    color: rgb(3, 137, 214);
+    text-decoration: none;
+    transition: .2s;
+}
+
+.web-research-section .btn-danger {
+    margin-top: 30px;
+    width: 450px;
+    height: 55px;
+    border-radius: 0;
+    font-family: "Rubik";
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+
+.web-research-section .btn-danger:hover {
+    box-shadow: 0 5px 5px rgba(121, 119, 119, 0.993);
+    transition: .2s;
+}
+
+.web-healthcare-section .web-healthcare-header p {
+    margin-top: 70px;
+    margin-bottom: 10px;
+    color: black;
+    font-family: "Rubik";
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.web-healthcare-section .web-healthcare-header h2 {
+    color: black;
+    font-family: "lato";
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+
+.web-healthcare-section .web-healthcare-content .card {
+    border-radius: 0;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 470px;
+}
+
+.web-healthcare-section .web-healthcare-content .card h6 {
+    color: rgba(204, 43, 3, 0.993);
+    font-family: "Rubik";
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.web-healthcare-section .web-healthcare-content .card p {
+    color: black;
+    font-family: "Rubik";
+    font-weight: 500;
+}
+
+.web-healthcare-section .web-healthcare-content .card .card-footer a {
+    color: rgb(3, 137, 214);
+    font-family: "lato";
+    font-weight: 400;
+}
+
+.web-healthcare-section .web-healthcare-content .card .card-footer a:hover {
+    color: rgb(3, 137, 214);
+    text-decoration: none;
+    font-family: "Rubik";
+    font-weight: 500;
+    transition: .5s;
+}
+
+.web-healthcare-section .web-healthcare-content .btn-danger {
+    margin-top: 30px;
+    width: 450px;
+    height: 55px;
+    border-radius: 0;
+    font-family: "Rubik";
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+
+.web-healthcare-section .web-healthcare-content .btn-danger:hover {
+    transition: .2s;
+    box-shadow: 0 5px 5px rgba(121, 119, 119, 0.993);
+}
+
+.web-campus-section {
+    background: rgb(247, 242, 234);
+}
+
+.web-campus-section .web-campus-header p {
+    padding-top: 70px;
+    margin-bottom: 10px;
+    font-family: "Rubik";
+    color: black;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.web-campus-section .web-campus-header h2 {
+    margin-bottom: 70px;
+    color: black;
+    font-family: "lato";
+    font-weight: 500;
+}
+
+.web-campus-section .web-campus-content .web-campus-item {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 30px;
+}
+
+.web-campus-section .web-campus-content .web-campus-item h4 {
+    font-family: "Rubik";
+    color: black;
+    margin-top: 10px;
+}
+
+.web-campus-section .web-campus-content .web-campus-item p {
+    color: black;
+    font-size: 17px;
+    font-family: "lato";
+}
+
+.web-campus-section .web-campus-content .web-campus-item a {
+    color: rgb(3, 137, 214);
+    font-family: "Rubik";
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.web-campus-section .web-campus-content .btn-danger {
+    margin-top: 30px;
+    width: 450px;
+    height: 55px;
+    border-radius: 0;
+    font-family: "Rubik";
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+
+.web-campus-section .web-campus-content .btn-danger:hover {
+    box-shadow: 0 5px 5px rgba(121, 119, 119, 0.993);
+    transition: .2s;
+}
+
+.web-admission-section .web-admission-header p {
+    margin-top: 70px;
+    color: black;
+    font-family: "Rubik";
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.web-admission-section .web-admission-header h2 {
+    color: black;
+    font-family: "lato";
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.web-admission-section .web-admission-content {
+    margin-bottom: 30px;
+}
+
+.web-admission-section .web-admission-content h5 {
+    color: black;
+    font-family: "Rubik";
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.web-admission-section .web-admission-content p {
+    color: black;
+    font-family: "lato";
+    font-size: 17px;
+}
+
+.web-admission-section .btn-danger {
+    margin-top: 30px;
+    width: 450px;
+    height: 55px;
+    border-radius: 0;
+    font-family: "Rubik";
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+
+.web-admission-section .btn-danger:hover {
+    box-shadow: 0 5px 5px rgba(121, 119, 119, 0.993);
+    transition: .2s;
+}
+
+.web-about-section {
+    background: rgb(247, 242, 234);
+}
+
+.web-about-section .web-about-header p {
+    padding-top: 70px;
+    margin-bottom: 10px;
+    color: black;
+    font-family: "Rubik";
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.web-about-section .web-about-header h2 {
+    margin-bottom: 70px;
+    color: black;
+    font-family: "lato";
+    font-weight: 500;
+}
+
+.web-about-section .web-about-content .web-about-counter .web-counter-item {
+    margin-bottom: 30px;
+}
+
+.web-about-section .web-about-content .web-counter-item span {
+    display: block;
+    color: black;
+    font-family: "lato";
+    font-weight: 900;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.web-about-section .web-about-content .btn-danger {
+    margin-top: 70px;
+    width: 450px;
+    height: 55px;
+    border-radius: 0;
+    font-family: "Rubik";
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+
+.web-about-section .web-about-content .btn-danger:hover {
+    box-shadow: 0 5px 5px rgba(121, 119, 119, 0.993);
+    transition: .2s;
+}
+
+.web-about-section img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.web-footer-section {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.web-footer-section .web-footer-socialmedia ul li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.web-footer-section .web-footer-socialmedia ul li a {
+    font-size: 35px;
+}
+
+.web-footer-section .web-footer-socialmedia ul li:first-child a {
+    color: #3b5998;
+}
+
+.web-footer-section .web-footer-socialmedia ul li:nth-child(2) a {
+    color: #1da1f2;
+}
+
+.web-footer-section .web-footer-socialmedia ul li:nth-child(3) a {
+    color: #fd1d1d;
+}
+
+.web-footer-section .web-footer-socialmedia ul li:nth-child(4) a {
+    color: #ff0000;
+}
+
+.web-footer-section .web-footer-socialmedia ul li:nth-child(5) a {
+    color: #444444;
+}
+
+.web-footer-section .web-footer-socialmedia ul li a:hover {
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: .5s;
+}
+
+.web-footer-section .web-footer-content {
+    margin-top: 30px;
+}
+
+.web-footer-section .web-footer-content h5 {
+    color: rgba(204, 43, 3, 0.993);
+    font-family: "Rubik";
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.web-footer-section .web-footer-content .web-footer-item ul li {
+    margin-bottom: 10px;
+}
+
+.web-footer-section .web-footer-content .web-footer-item ul li a {
+    color: black;
+    font-size: 17px;
+    font-family: "lato";
+    font-weight: 400;
+}
+
+.web-footer-section .web-footer-content .web-footer-item ul li a:hover {
+    color: rgb(3, 137, 214);
+    text-decoration: none;
+    transition: .2s;
+}
+
+.web-footer-section .web-footer-content .btn-light {
+    color: black;
+    border-color: black;
+    background: white;
+    border-radius: 0;
+    font-family: "Rubik";
+    font-weight: 400;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.web-footer-section .web-footer-content .btn-light:hover {
+    color: rgba(204, 43, 3, 0.993);
+    border-color: rgba(204, 43, 3, 0.993);
+    background: white;
+    transition: .2s;
+}
+
+.web-footer-section .web-footer-info {
+    background: rgb(133, 2, 2);
+}
+
+.web-footer-section .web-footer-info p {
+    font-size: 30px;
+    color: white;
+    font-family: "lato";
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.web-footer-section .web-footer-info .footer-info-item1 ul {
+    margin-top: 50px;
+}
+
+.web-footer-section .web-footer-info .footer-info-item1 ul li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.web-footer-section .web-footer-info .footer-info-item1 ul li a h6 {
+    color: white;
+    font-family: "Rubik";
+    font-weight: 400;
+}
+
+.web-footer-section .web-footer-info .footer-info-item1 ul li a h6:hover {
+    color: white;
+    text-decoration: underline;
+    border-color: white;
+}
+
+.web-footer-section .web-footer-info .footer-info-item2 ul {
+    margin-top: 5px;
+}
+
+.web-footer-section .web-footer-info .footer-info-item2 ul li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.web-footer-section .web-footer-info .footer-info-item2 ul li a {
+    color: white;
+    font-family: "lato";
+    font-size: 15px;
+    font-weight: 400;
+}
+
+@media screen and (max-width:1024px) {
+    .web-header-section {
+        width: 100%;
+        height: 130px;
+        overflow-x: hidden;
+    }
+    .web-header-section .navbar-brand a h3 {
+        font-size: 20px;
+    }
+    #first-line {
+        float: left;
+        margin-left: 60px;
+        margin-top: 5px;
+    }
+    #second-line {
+        margin-top: 30px;
+        margin-right: 35px;
+    }
+    #second-line li {
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+    #second-line li a {
+        font-size: 16px;
+    }
+    .web-slider-section {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .web-news-section {
+        overflow-x: hidden;
+    }
+    .web-news-section .web-news-content .card {
+        height: 350px;
+    }
+    .web-news-section .web-news-content .card img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+    #first-overlay-img {
+        height: 350px;
+        object-fit: cover;
+    }
+    #first-overlayimg {
+        margin-top: 220px;
+    }
+    #second-overlay-img {
+        height: 350px;
+        object-fit: cover;
+    }
+    #second-overlayimg {
+        margin-top: 220px;
+    }
+    .web-events-section .web-events-content .card {
+        height: 480px;
+    }
+    footer .web-footer-section .web-footer-socialmedia ul li a {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .web-header-section {
+        width: 100%;
+        height: 100px;
+        overflow-x: hidden;
+    }
+    .web-header-section .navbar-brand {
+        margin-top: 20px;
+    }
+    .web-header-section .navbar-brand a h3 {
+        color: white;
+        font-size: 27px;
+        font-family: "lato";
+        font-weight: 400;
+    }
+    .web-header-section button {
+        margin-top: 20px;
+    }
+    .web-header-section button span {
+        font-size: 30px;
+        color: white;
+    }
+    #Menu {
+        background: rgb(133, 2, 2);
+        z-index: 100;
+        position: fixed;
+        margin-top: 40px;
+        margin-left: 0;
+        border-radius: 10px;
+        overflow-x: hidden;
+    }
+    #first-line li {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    #first-line li a {
+        color: white;
+        font-size: 22px;
+        font-family: "lato";
+        font-weight: 400;
+    }
+    #second-line li {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    #second-line li a {
+        color: white;
+        font-size: 22px;
+        font-family: "Rubik";
+        font-weight: 500;
+    }
+    .web-slider-section {
+        overflow-x: hidden;
+    }
+    .web-events-section .web-events-content .card {
+        height: 450px;
+    }
+    .web-research-section .web-research-content .card {
+        height: 330px;
+    }
+    .web-healthcare-section .web-healthcare-content .card {
+        height: 650px;
+    }
+    .web-healthcare-section .web-healthcare-content .card-body p {
+        font-size: 22px;
+    }
+    .web-campus-section .web-campus-content .web-campus-item p {
+        font-size: 20px;
+    }
+    .web-admission-section .web-admission-content p {
+        font-size: 20px;
+    }
+    footer .web-footer-section .web-footer-socialmedia ul li a {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width:414px) {
+    .web-header-section {
+        height: 80px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .web-header-section .navbar-brand {
+        margin-top: 0;
+    }
+    .web-header-section button {
+        margin-top: 10px;
+    }
+    #Menu {
+        margin-top: 30px;
+        margin-left: 0;
+        width: 380px;
+        border-radius: 5px;
+    }
+    #first-line {
+        margin-top: 0;
+        margin-left: 50px;
+    }
+    #first-line li a {
+        color: white;
+        font-size: 15px;
+        font-family: "lato";
+        font-weight: 400;
+    }
+    .web-slider-section {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .web-slider-section .carousel-inner .carousel-item img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    .web-slider-section .carousel-inner .carousel-item .carousel-caption a {
+        color: white;
+        font-size: 25px;
+        font-family: "Rubik";
+        font-weight: 700;
+    }
+    .web-news-section {
+        width: 100%;
+        padding-top: 30px;
+        overflow-x: hidden;
+    }
+    .web-news-section .web-news-header p {
+        color: black;
+        font-size: 35px;
+        font-family: "Rubik";
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+    .web-news-section .web-news-header h2 {
+        color: black;
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-size: 25px;
+        font-family: "lato";
+        font-weight: 400;
+    }
+    #first-card {
+        width: 100%;
+        height: 250px;
+    }
+    #first-overlay-img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+    #first-overlayimg {
+        float: left;
+        margin-top: 110px;
+        margin-left: 0;
+    }
+    #second-overlay-img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+    #second-card {
+        width: 100%;
+        height: 250px;
+    }
+    #second-overlayimg {
+        float: left;
+        margin-top: 110px;
+        margin-left: 0;
+    }
+    .web-news-section .web-news-content .card {
+        width: 100%;
+        height: 300px;
+    }
+    .web-news-section .web-news-content .cad img {
+        width: 100%;
+        height: 270px;
+        object-fit: cover;
+    }
+    .web-news-section .web-news-content .web-newsmore-button .btn-danger {
+        width: 300px;
+        height: 50px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .web-events-section {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .web-events-section .web-events-header p {
+        padding-top: 30px;
+        color: white;
+        font-size: 35px;
+        font-family: "Rubik";
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+    .web-events-section .web-events-header h2 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-size: 25px;
+        font-family: "lato";
+        font-weight: 400;
+        color: white;
+    }
+    .web-events-section .web-events-content .card {
+        width: 100%;
+        height: 450px;
+    }
+    .web-events-section .web-events-content .card img {
+        width: 100%;
+        object-fit: cover;
+    }
+    .web-events-section .web-events-content .btn-danger {
+        width: 300px;
+        height: 50px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .web-academics-section {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .web-academics-section .web-academics-header p {
+        color: black;
+        font-size: 35px;
+        font-family: "Rubik";
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+    .web-academics-section .web-academics-header h2 {
+        margin-top: 0;
+        margin-bottom: 30px;
+        font-size: 20px;
+        color: black;
+        font-family: "lato";
+        font-weight: 400;
+    }
+    .web-academics-section .web-academics-tabs h4 {
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .web-academics-section .web-academics-tabs ul li a h5 {
+        font-size: 15px;
+    }
+    .web-academics-section .web-moreacademics-button .btn-danger {
+        width: 300px;
+        height: 50px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .web-research-section {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .web-research-section .web-research-header p {
+        padding-top: 20px;
+        font-size: 35px;
+        font-family: "Rubik";
+        font-weight: 700;
+        color: black;
+        margin-bottom: 10px;
+    }
+    .web-research-section .web-research-header h2 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        color: black;
+        font-size: 20px;
+        font-family: "lato";
+        font-weight: 400;
+    }
+    .web-research-section .btn-danger {
+        width: 300px;
+        height: 50px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .web-healthcare-section {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .web-healthcare-section .web-healthcare-header p {
+        color: black;
+        font-size: 35px;
+        font-family: "Rubik";
+        font-weight: 700;
+        margin-top: 30px;
+        margin-bottom: 5px;
+    }
+    .web-healthcare-section .web-healthcare-header h2 {
+        color: black;
+        margin-top: 0;
+        margin-bottom: 30px;
+        font-size: 20px;
+        font-family: "lato";
+        font-weight: 400;
+    }
+    .web-healthcare-section .web-healthcare-content .card {
+        width: 100%;
+        height: 500px;
+    }
+    .web-healthcare-section .web-healthcare-content .card .card-body p {
+        color: black;
+        font-size: 19px;
+    }
+    .web-healthcare-section .web-healthcare-content .btn-danger {
+        width: 300px;
+        height: 50px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .web-campus-section {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .web-campus-section .web-campus-header p {
+        padding-top: 30px;
+        margin-bottom: 5px;
+        color: black;
+        font-size: 35px;
+        font-family: "Rubik";
+        font-weight: 700;
+    }
+    .web-campus-section .web-campus-header h2 {
+        margin-top: 0;
+        margin-bottom: 30px;
+        color: black;
+        font-size: 20px;
+        font-family: "lato";
+        font-weight: 400;
+    }
+    .web-campus-section .web-campus-content .btn-danger {
+        width: 300px;
+        height: 50px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .web-admission-section {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .web-admission-section .web-admission-header p {
+        margin-top: 30px;
+        margin-bottom: 5px;
+        color: black;
+        font-size: 35px;
+        font-family: "Rubik";
+        font-weight: 700;
+    }
+    .web-admission-section .web-admission-header h2 {
+        margin-top: 0;
+        margin-bottom: 30px;
+        color: black;
+        font-size: 20px;
+        font-family: "lato";
+        font-weight: 400;
+    }
+    .web-admission-section img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    .web-admission-section .btn-danger {
+        width: 300px;
+        height: 50px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .web-about-section {
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .web-about-section .web-about-header p {
+        padding-top: 30px;
+        margin-bottom: 5px;
+        color: black;
+        font-size: 35px;
+        font-family: "Rubik";
+        font-weight: 700;
+    }
+    .web-about-section .web-about-header h2 {
+        color: black;
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-family: "lato";
+        font-weight: 400;
+    }
+    .web-about-section .web-about-content .btn-danger {
+        width: 300px;
+        height: 50px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}
